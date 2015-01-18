@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 describe Api::V1::UsersController do
-  before(:each) {request.headers['Accept'] = "application/vnd.market_place_api.v1"}
+  before(:each) {request.headers['Accept'] = "application/vnd.marketplace.v1"}
 
   describe "Get #show" do
     before(:each) do
